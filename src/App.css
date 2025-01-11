@@ -1,0 +1,124 @@
+
+
+.left, 
+.right {
+  flex: 1 1 50%; /* Default: Each section takes 50% width */
+  flex-direction: column; /* Align children in a column */
+  justify-content: center; /* Center content vertically */
+  align-items: flex-start; /* Align text to the left */
+  padding: 20px; /* Optional: Padding for content spacing */
+  margin-top: 70px;
+
+}
+p{
+  margin-top: 30px;
+  font-size: medium;
+}
+.spa{
+ color: rgb(172, 28, 131);
+}
+.btn
+{
+  margin-top: 10px;
+}
+
+/* Responsive behavior for smaller screens */
+@media screen and (max-width: 768px) {
+  .left, 
+  .right {
+    flex: 1 1 100%; /* Full width for each section on small screens */
+  }
+}
+.img{
+  height: 80vh;
+margin-left: 30vh;
+margin-top: -120px;
+}
+.h32{
+  margin-top: 15vh;
+}
+.para{
+  margin-top: 80vw;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  background-Color: Hovered  'darkblue' , 'blue',
+
+}
+.mail{
+  width: 25vw;
+  height: 10vh;
+
+}
+.btn{
+  width: 25vw;
+}
+.button{
+  width: 5vw;
+  text-decoration: none;
+  color: black;
+  
+}
+.const{
+  margin-top: 5vh;
+}
+.contain {
+  height: 55vh; /* 50% of the viewport height */
+  width: 28vw; /* 28% of the viewport width */
+  border: 1px solid black ;
+  display: flex; /* Makes the container a flexbox */
+  margin-top: 20vh;
+  border-radius: 15px;
+}
+h1{
+  text-align: center;
+  margin-top: 7vh;
+}
+.coursep{
+max-width: 70vw;
+text-align: center;
+margin-left: 10rem;
+
+}
+.a{
+  margin-right: 15rem;
+}
+.contains {
+  height: 60vh; /* 50% of the viewport height */
+  width: 28vw; /* 28% of the viewport width */
+  border: 1px solid black ;
+  display: flex; /* Makes the container a flexbox */
+  margin-top: 20vh;
+  border-radius: 15px;
+}
+.coursebtn{
+  background-color: rgb(219, 26, 26);
+  margin-left: 40rem;
+  padding: 8px;
+  margin-top: 16px;
+  border-radius: 10px solid black
+}
+.card {
+  display: flex; /* Makes the container a flexbox */
+  justify-content: space-evenly; /* Distributes cards evenly */
+  align-items: center; /* Aligns cards vertically */
+  flex-wrap: wrap; /* Allows wrapping if there are many cards */
+  gap: 20px; /* Adds consistent spacing between cards */
+  margin-top: 20px; /* Adds spacing above the card container */
+  padding: 20px; /* Optional: Adds padding inside the card container */
+}
+
+.card > * {
+  flex: 1 1 calc(33.33% - 40px); /* Ensures cards are evenly spaced and responsive */
+  max-width: 300vw; /* Optional: Sets a max width for each card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+  border-radius: 10px; /* Optional: Rounds card corners */
+  overflow: hidden; /* Ensures content stays within the card bounds */
+}
+@media screen and (max-width: 768px) {
+  .card > * {
+    flex: 1 1 100%; /* Each card takes full width on smaller screens */
+  }
+}
+
