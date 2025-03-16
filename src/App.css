@@ -64,7 +64,7 @@ margin-top: -120px;
   margin-top: 5vh;
 }
 .contain {
-  height: 55vh; /* 50% of the viewport height */
+  height: 60vh; /* 50% of the viewport height */
   width: 28vw; /* 28% of the viewport width */
   border: 1px solid black ;
   display: flex; /* Makes the container a flexbox */
@@ -85,7 +85,7 @@ margin-left: 10rem;
   margin-right: 15rem;
 }
 .contains {
-  height: 60vh; /* 50% of the viewport height */
+  height: 65vh; /* 50% of the viewport height */
   width: 28vw; /* 28% of the viewport width */
   border: 1px solid black ;
   display: flex; /* Makes the container a flexbox */
@@ -99,7 +99,7 @@ margin-left: 10rem;
   margin-top: 16px;
   border-radius: 10px solid black
 }
-.card {
+.card{
   display: flex; /* Makes the container a flexbox */
   justify-content: space-evenly; /* Distributes cards evenly */
   align-items: center; /* Aligns cards vertically */
@@ -107,6 +107,8 @@ margin-left: 10rem;
   gap: 20px; /* Adds consistent spacing between cards */
   margin-top: 20px; /* Adds spacing above the card container */
   padding: 20px; /* Optional: Adds padding inside the card container */
+  background-color: #f0f8ff42;
+ 
 }
 
 .card > * {
@@ -122,3 +124,8 @@ margin-left: 10rem;
   }
 }
 
+.crossbtn{
+  border:white 2px solid ;
+  margin-left: 25vw;
+
+}
